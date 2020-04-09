@@ -34,7 +34,7 @@ public class PhoneActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        //LoginEventManager.getInstance().phoneInit(this, true, true);
+        LoginEventManager.getInstance().phoneInit(this, true, true);
 
         mTxtResult = findViewById(R.id.txt_result);
         mBtnChange = findViewById(R.id.btn_change);

@@ -32,7 +32,7 @@ public class GuestActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        //LoginEventManager.getInstance().guestInit(this, true, true);
+        LoginEventManager.getInstance().guestInit(this, true, true);
 
         mTxtResult = findViewById(R.id.txt_result);
         mBtnLogin = findViewById(R.id.btn_login);

@@ -63,7 +63,7 @@ dependencies {
     implementation 'com.github.muyishuangfeng:LTGameSDKCore-Android:1.1.1'
     implementation 'com.github.muyishuangfeng:LTGameSDKNet-Android:1.2.4'
     implementation 'com.github.muyishuangfeng:LTGameSDKGoogle-Android:1.2.3'
-    implementation 'com.github.muyishuangfeng:LTGameSDKGooglePlay-Android:1.2.6'
+    implementation 'com.github.muyishuangfeng:LTGameSDKGooglePlay-Android:1.2.7'
     implementation 'com.github.muyishuangfeng:LTGameSDKFacebook-Android:1.2.3'
     implementation 'com.github.muyishuangfeng:LTGameSDKOneStore-Android:1.2.0'
     implementation 'com.github.muyishuangfeng:LTGameSDKPhone-Android:1.1.5'

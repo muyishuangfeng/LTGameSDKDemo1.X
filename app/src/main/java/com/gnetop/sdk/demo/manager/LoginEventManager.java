@@ -182,14 +182,10 @@ public class LoginEventManager {
                                 .debug(isDebug)
                                 .appID(mLtAppID)
                                 .appKey(mLtAppKey)
-                                .baseUrl(baseUrl)
-                                .packageID(mPackageID)
                                 .isServerTest(isTest)
                                 .packageID(AppUtil.getPackageName(context))
                                 .setAdID(mAdID)
-                                .payTest(mTestPay)
                                 .googlePlay(true)
-                                .requestCode(REQUEST_CODE)
                                 .build();
                         LTGameSdk.init(options);
                     }
@@ -219,6 +215,7 @@ public class LoginEventManager {
                                 .baseUrl(baseUrl)
                                 .packageID(mPackageID)
                                 .appKey(mLtAppKey)
+                                .appName("name")
                                 .isServerTest(isTest)
                                 .setAdID(mAdID)
                                 .guestEnable(true)
@@ -281,6 +278,8 @@ public class LoginEventManager {
                                 .appID(mLtAppID)
                                 .appKey(mLtAppKey)
                                 .baseUrl(baseUrl)
+                                .phoneAndPass("123","456")
+                                .loginCode("0")
                                 .packageID(mPackageID)
                                 .isServerTest(isTest)
                                 .setAdID(mAdID)
@@ -460,6 +459,10 @@ public class LoginEventManager {
         result.setLTAppKey(mLtAppKey);
         result.setSku(sku);
         result.setGoodsID(mGoodsID);
+        result.setBaseUrl(baseUrl);
+        result.setmPackageID(mPackageID);
+        result.setParams(params);
+        result.setPayTest(0);
         result.setPublicKey(mGPPublicKey);
         result.setParams(params);
         result.setPayTest(payType);
