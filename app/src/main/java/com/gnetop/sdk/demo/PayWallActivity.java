@@ -92,7 +92,6 @@ public class PayWallActivity extends AppCompatActivity {
                 .appKey(LTAppKey)
                 .payWall()
                 .setAdID(mAdID)
-                .goodsID(productID, mGoodsID)
                 .packageID(packageName)
                 .build();
         LTGameSdk.init(options);
